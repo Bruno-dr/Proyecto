@@ -45,13 +45,13 @@ nav  a {
 padding: 5%;
 }
 .primero{
-    background-image: url(/img/pngwing.com.png);
+    background-image: url(../img/pngwing.com.png);
 }
 .segundo{
-    background-image: url(/img/pngwing2.com.png);
+    background-image: url(../img/pngwing2.com.png);
 }
 .tercero{
-    background-image: url(/img/pngwing3.com.png);
+    background-image: url(../img/pngwing3.com.png);
 }
 .service{
     height: 150px;
