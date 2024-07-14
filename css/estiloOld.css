@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Chakra Petch", sans-serif;
+    
 }
 body{
    background-color:rgb(9, 73, 84); 
+   font-family: "Chakra Petch", sans-serif;
 }
 /*MENU*/
 .menu{
@@ -21,7 +22,7 @@ nav  a {
 }
 .color{
     color: white;
-}
+}/*no aparece*/
 
 /*CARRUSEL*/
 .seccionn{

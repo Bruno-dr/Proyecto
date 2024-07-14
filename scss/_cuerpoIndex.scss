@@ -1,0 +1,57 @@
+main{
+   
+    .seccionn{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .carousel{
+            border-radius: 20px;
+            .imgMotos{
+                width: 100px;
+                height:auto;
+                border-radius: 20px;
+            }
+        }
+        .parrafo{
+            display: flex;
+            .nosotros{
+                align-self: center;
+                padding: 5%;
+                color: white;
+                
+                }
+        
+        }
+    }
+    .service{
+        height: 150px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:  5%;
+        a{
+            text-decoration: none;
+            h2{
+                color:black;
+                &:hover{
+                    text-decoration:dashed;
+                    color: white;
+                    transition: 1000ms;
+                }
+            }
+            
+            
+        }
+        
+    }
+    .primero{
+        background-image: url(../img/pngwing.com.png);
+    }
+    .segundo{
+        background-image: url(../img/pngwing2.com.png);
+    }
+    .tercero{
+        background-image: url(../img/pngwing3.com.png);
+    }
+  
+}

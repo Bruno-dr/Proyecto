@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chakra Petch", sans-serif;
+  padding-top: 3%;
+}
+
+body {
+  background-color: hsl(0, 0%, 12%);
+}
+
+header .menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: hsl(0, 0%, 8%);
+  display: grid;
+  align-content: center;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.211);
+}
+header .menu div a {
+  font-size: 20px;
+  font-weight: 600;
+}
+header .menu div .logo {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+header .menu div .titulos ul li a {
+  color: white;
+}
+
+/*  FOOTER */
+.piePagina {
+  background-color: hsl(0, 0%, 8%);
+  padding: 5px 2% 5px 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.piePagina .logFter .log {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+.piePagina .links {
+  margin-right: 5%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.piePagina .links .imagen {
+  width: 40px;
+  height: auto;
+}
+.piePagina .links .imagen:hover {
+  transform: scale(1.5, 1.5);
+  transition: 500ms;
+}
+
+main .seccionn {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .seccionn .carousel {
+  border-radius: 20px;
+}
+main .seccionn .carousel .imgMotos {
+  width: 100px;
+  height: auto;
+  border-radius: 20px;
+}
+main .seccionn .parrafo {
+  display: flex;
+}
+main .seccionn .parrafo .nosotros {
+  align-self: center;
+  padding: 5%;
+  color: white;
+}
+main .service {
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5%;
+}
+main .service a {
+  text-decoration: none;
+}
+main .service a h2 {
+  color: black;
+}
+main .service a h2:hover {
+  text-decoration: dashed;
+  color: white;
+  transition: 1000ms;
+}
+main .primero {
+  background-image: url(../img/pngwing.com.png);
+}
+main .segundo {
+  background-image: url(../img/pngwing2.com.png);
+}
+main .tercero {
+  background-image: url(../img/pngwing3.com.png);
+}
+
+.contacto {
+  background-color: #F8F8F8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.contacto .contactanos {
+  margin: 50px;
+}
+.contacto .mapa {
+  grid-column: 1/4;
+  justify-self: center;
+  width: 90%;
+  height: 30%;
+}
+.contacto .mapa .estiloMapa {
+  width: 100%;
+  height: 100%;
+}
+
+.quieneSomos .nosotros {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.quieneSomos .nosotros .imgNosotros {
+  width: 30%;
+  height: auto;
+  margin: 5px;
+  border-radius: 10px;
+}
+.quieneSomos .textUno {
+  margin-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+}
+.quieneSomos .soy {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+.quieneSomos .soy .card {
+  padding-top: 0%;
+  background-color: black;
+  color: white;
+}
+.quieneSomos .soy .card .flex {
+  display: flex;
+}
+.quieneSomos .soy .card .flex .imgCard {
+  height: 300px;
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 3%;
+}
+.quieneSomos .soy .card .flex .cardBody {
+  padding-bottom: 3%;
+}
+.quieneSomos .soy .card .flex .cardBody .textDos {
+  justify-self: center;
+  align-self: center;
+  padding-right: 25%;
+  padding-left: 10%;
+  color: white;
+}
+.quieneSomos .soy .card a {
+  margin-bottom: 0.1%;
+}
+
+/*# sourceMappingURL=estilo.css.map */

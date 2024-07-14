@@ -1,0 +1,21 @@
+$oscuro:hsl(0, 0%, 8%);
+$gris:hsl(0, 0%, 12%);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+    padding-top: 3%;
+     
+    
+}
+body{
+    background-color:$gris;
+}
+
+
+
+@import "menuPie";
+@import "cuerpoindex";
+@import "contacto";
+@import "qSomos";

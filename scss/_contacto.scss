@@ -1,0 +1,24 @@
+.contacto{
+    background-color:#F8F8F8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    .contactanos{
+        margin: 50px ;
+       
+    }
+    .mapa{
+        grid-column: 1/4;
+        justify-self: center;
+        width: 90%;
+        height:30%;
+        .estiloMapa{
+            width: 100%;
+            height:100%;
+        }
+        
+    }
+
+
+    
+}

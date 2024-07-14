@@ -1,0 +1,63 @@
+.quieneSomos{
+    .nosotros{
+        
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        .imgNosotros{
+            width:30%;
+            height: auto;
+            margin: 5px;
+            border-radius: 10px;
+          }
+        }
+    .textUno{
+        margin-top: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        color:white;
+    }
+    
+    .soy{
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 5%;
+       
+        .card{
+            padding-top: 0%;
+            background-color: black;
+            color: white;
+            .flex{
+                display: flex;
+                .imgCard{
+                    height: 300px;
+                    width: 400px;
+                    border-radius: 50%;
+                    margin-left: 3%;
+                    
+                }
+               .cardBody{
+                padding-bottom: 3%;
+               
+                
+                .textDos{
+                    justify-self: center;
+                    align-self: center;
+                    padding-right: 25%;
+                    padding-left: 10%;
+                    color: white;
+                    
+                    
+                }
+               } 
+            }
+            a{
+                margin-bottom: 0.1%;
+            }
+            
+            
+        }
+        
+   }
+
+}
