@@ -180,4 +180,40 @@ main .tercero {
   margin-bottom: 0.1%;
 }
 
+@media only screen and (max-width: 700px) {
+  .contacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto .formulario {
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+    padding: 4%;
+  }
+  .contacto .mapa {
+    align-self: center;
+  }
+  .quieneSomos .nosotros {
+    padding: 10% 10px 10px 10px;
+  }
+  .quieneSomos .soy .card .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quieneSomos .soy .card .flex .imgCard {
+    height: 100% px;
+    width: 60%;
+  }
+  .seccionn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .quieneSomos .nosotros {
+    padding: 15% 10px 10px 10px;
+  }
+}
+
 /*# sourceMappingURL=estilo.css.map */

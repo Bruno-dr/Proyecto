@@ -19,3 +19,64 @@ body{
 @import "cuerpoindex";
 @import "contacto";
 @import "qSomos";
+
+
+@media only screen and (max-width:700px){
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        .formulario{
+                border-bottom: solid 1px black;
+                border-top: solid 1px black;
+                padding: 4%;
+            }
+        .mapa{
+            
+            align-self: center;
+        }
+    }
+
+    .quieneSomos{
+        .nosotros{
+             padding:10% 10px 10px 10px;
+            }
+        
+        
+        .soy{        
+            .card{
+                .flex{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .imgCard{
+                        height: 100%px;
+                        width: 60%;                     
+                    }
+                  
+                }
+                
+            }
+            
+       }
+    
+    }
+
+.seccionn{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+}
+
+
+@media only screen and (max-width:500px){
+
+    .quieneSomos{
+        .nosotros{
+             padding:15% 10px 10px 10px;
+            }
+        }
+}
