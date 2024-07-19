@@ -180,6 +180,48 @@ main .tercero {
   margin-bottom: 0.1%;
 }
 
+.mainService {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: white;
+}
+.mainService .contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 400px;
+}
+.mainService .contenedor img {
+  width: 100%;
+  height: 200px;
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+.mainService .contenedor ol {
+  padding-left: 20px;
+  text-align: left;
+}
+.mainService .contenedor ol li {
+  margin-bottom: 5px;
+}
+.mainService .central {
+  border-left: solid 1px rgba(255, 255, 255, 0.28);
+  border-right: solid 1px rgba(255, 255, 255, 0.28);
+}
+
+@media only screen and (max-width: 1199px) {
+  .mainService .central {
+    border-right: none;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .mainService .central {
+    border-left: none;
+  }
+}
 @media only screen and (max-width: 700px) {
   .contacto {
     display: flex;

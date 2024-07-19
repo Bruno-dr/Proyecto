@@ -1,0 +1,38 @@
+
+.mainService{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: white;
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    width: 400px;
+    
+    img {
+      width: 100%;
+      height: 200px;
+      max-width: 250px;
+      
+      margin-bottom: 15px;
+    }
+    ol {
+      padding-left: 20px;
+      text-align: left;
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .central{
+    border-left: solid 1px rgba(255, 255, 255, 0.28);
+    border-right: solid 1px rgba(255, 255, 255, 0.28);
+  }
+  
+}
+
+
