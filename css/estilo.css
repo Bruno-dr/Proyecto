@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: hsl(0, 0%, 12%);
+  background-color: #000000;
 }
 
 header .menu {
@@ -18,7 +18,7 @@ header .menu {
   background-color: hsl(0, 0%, 8%);
   display: grid;
   align-content: center;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.211);
+  border-bottom: solid 1px #C0C0C0;
 }
 header .menu div a {
   font-size: 20px;
@@ -28,9 +28,6 @@ header .menu div .logo {
   width: 100px;
   height: auto;
   border-radius: 50%;
-}
-header .menu div .titulos ul li a {
-  color: white;
 }
 
 /*  FOOTER */
@@ -93,7 +90,7 @@ main .service a {
   text-decoration: none;
 }
 main .service a h2 {
-  color: black;
+  color: #FFC107;
 }
 main .service a h2:hover {
   text-decoration: dashed;
@@ -101,20 +98,20 @@ main .service a h2:hover {
   transition: 1000ms;
 }
 main .primero {
-  background-image: url(../img/pngwing.com.png);
+  background-image: url(../img/Moto\ azul.png);
 }
 main .segundo {
-  background-image: url(../img/pngwing2.com.png);
+  background-image: url(../img/moto\ naranja.png);
 }
 main .tercero {
-  background-image: url(../img/pngwing3.com.png);
+  background-image: url(../img/moto\ cross.png);
 }
 
 .contacto {
   background-color: #F8F8F8;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 400px;
 }
 .contacto .contactanos {
   margin: 50px;
@@ -123,7 +120,8 @@ main .tercero {
   grid-column: 1/4;
   justify-self: center;
   width: 90%;
-  height: 30%;
+  height: 90%;
+  margin-bottom: 10%;
 }
 .contacto .mapa .estiloMapa {
   width: 100%;
@@ -154,7 +152,7 @@ main .tercero {
 }
 .quieneSomos .soy .card {
   padding-top: 0%;
-  background-color: black;
+  background-color: #2C2C2C;
   color: white;
 }
 .quieneSomos .soy .card .flex {
@@ -212,12 +210,47 @@ main .tercero {
   border-right: solid 1px rgba(255, 255, 255, 0.28);
 }
 
+.tituloComenarios {
+  text-align: center;
+  margin: 10% 20px 20px 20px;
+}
+
+.contenedorComentarios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  color: #C0C0C0;
+}
+.contenedorComentarios .opinion {
+  background-color: hsl(0, 0%, 8%);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.contenedorComentarios .opinion h3 {
+  margin-top: 0;
+}
+.contenedorComentarios .opinion p {
+  font-style: italic;
+}
+.contenedorComentarios .opinion .author {
+  text-align: right;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1199px) {
   .mainService .central {
     border-right: none;
   }
 }
 @media only screen and (max-width: 799px) {
+  main .seccionn {
+    display: flex;
+    flex-direction: column;
+  }
   .mainService .central {
     border-left: none;
   }
@@ -251,10 +284,32 @@ main .tercero {
     display: flex;
     flex-direction: column;
   }
+  .tituloComenarios {
+    margin-top: 20%;
+  }
 }
 @media only screen and (max-width: 500px) {
+  main .seccionn {
+    margin-top: 10%;
+  }
   .quieneSomos .nosotros {
-    padding: 15% 10px 10px 10px;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  .quieneSomos .nosotros .imgNosotros {
+    align-self: center;
+    width: 250px;
+    height: 200px;
+    margin: none;
+    border-radius: none;
+  }
+  .tituloComenarios {
+    margin-top: 30%;
+  }
+  .contenedorComentarios {
+    display: flex;
+    flex-direction: column;
   }
 }
 

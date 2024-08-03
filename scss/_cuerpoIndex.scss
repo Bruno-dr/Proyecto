@@ -32,7 +32,7 @@ main{
         a{
             text-decoration: none;
             h2{
-                color:black;
+                color:$titulos;
                 &:hover{
                     text-decoration:dashed;
                     color: white;
@@ -45,13 +45,13 @@ main{
         
     }
     .primero{
-        background-image: url(../img/pngwing.com.png);
+        background-image: url(../img/Moto\ azul.png);
     }
     .segundo{
-        background-image: url(../img/pngwing2.com.png);
+        background-image: url(../img/moto\ naranja.png);
     }
     .tercero{
-        background-image: url(../img/pngwing3.com.png);
+        background-image: url(../img/moto\ cross.png);
     }
   
 }

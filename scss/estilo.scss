@@ -1,5 +1,9 @@
 $oscuro:hsl(0, 0%, 8%);
-$gris:hsl(0, 0%, 12%);
+$gris:#000000;
+$grisDos:#2C2C2C;
+$plata:#C0C0C0;
+$titulos:#FFC107;
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +24,7 @@ body{
 @import "contacto";
 @import "qSomos";
 @import "servicios";
+@import "comentarios";
 
 
 
@@ -33,6 +38,14 @@ body{
     }
 }
 @media only screen and (max-width:799px){
+    
+    main{
+        .seccionn{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
     .mainService{
         .central{
             border-left: none;
@@ -89,21 +102,44 @@ body{
 }
 
 
-
+.tituloComenarios{
+    
+    margin-top: 20% ;
+}
 
 
 }
 
 
 @media only screen and (max-width:500px){
+    main{
+        .seccionn{
+            margin-top: 10%;
+            
+        }
+    }
 
     .quieneSomos{
         .nosotros{
-             padding:15% 10px 10px 10px;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            .imgNosotros{
+                align-self: center;
+                width:250px;
+                height: 200px;
+                margin: none;
+                border-radius: none;
+              }
             }
         }
 
-
-
-
+        .tituloComenarios{
+    
+            margin-top: 30% ;
+        }
+        .contenedorComentarios {
+            display: flex;
+            flex-direction: column;
+        }
 }
